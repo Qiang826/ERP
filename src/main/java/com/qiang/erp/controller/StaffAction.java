@@ -23,6 +23,6 @@ public class StaffAction extends ActionSupport{
 		for (Staff staff : list) {
 			System.out.println(staff);
 		}
-		return NONE;
+		return "index";
 	}
 }

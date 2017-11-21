@@ -22,6 +22,7 @@
 		<!-- yuangong -->
 		
 		<action name="staffAction_*" class="staffAction" method="{1}">
+			<result name="index">/WEB-INF/index.jsp</result>
 		</action>
 	</package>
 </struts>
